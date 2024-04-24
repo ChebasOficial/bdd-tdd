@@ -1,0 +1,11 @@
+Funcionalidade: Calculadora de Média
+
+  Cenário: Média de dois números positivos
+    Dado que eu tenha dois números positivos
+    Quando eu calcular a média
+    Então o resultado deve ser a média dos dois números
+
+  Cenário: Média de um número positivo e um número negativo
+    Dado que eu tenha um número positivo e um número negativo
+    Quando eu calcular a média
+    Então o resultado deve ser a média dos dois números
